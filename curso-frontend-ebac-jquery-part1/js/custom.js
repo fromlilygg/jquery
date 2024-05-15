@@ -62,7 +62,15 @@ $(document).ready(function () {
 
     $('.btn-dark').css({"color": "rgb(2, 97, 198)", "background-color": "whitesmoke"})
     
-    
+    $('.btn-dark').on({
+        mouseenter: function(event) {
+            $(this).css({"background-color": "#ffd779", "color": "black"});
+
+        },
+
+        mouseleave: function(event){
+            $(this).css({"color": "rgb(2, 97, 198)", "background-color": "whitesmoke"})}
+        })  
     
 })
 
