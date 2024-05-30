@@ -756,3 +756,7 @@ a {
 .text-muted {
 	display: none;
 }
+
+.invalid{
+	border-color: #F00;
+}
